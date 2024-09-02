@@ -1,5 +1,38 @@
 # Changelog
 
+## [0.3.41](https://github.com/k8sgpt-ai/k8sgpt/compare/v0.3.40...v0.3.41) (2024-09-02)
+
+
+### Features
+
+* add custom-analyzer cmd ([#1207](https://github.com/k8sgpt-ai/k8sgpt/issues/1207)) ([db26d24](https://github.com/k8sgpt-ai/k8sgpt/commit/db26d24ac607534ce78c1c82f3e1d4e5dde17578))
+* add event failure handling in service analyzer ([#1132](https://github.com/k8sgpt-ai/k8sgpt/issues/1132)) ([a4e44d5](https://github.com/k8sgpt-ai/k8sgpt/commit/a4e44d59e3ee63714cfd144228299e4f24ac3691))
+* refactoring to the new schema ([#1219](https://github.com/k8sgpt-ai/k8sgpt/issues/1219)) ([02fa109](https://github.com/k8sgpt-ai/k8sgpt/commit/02fa109429d3c684079f5d488e7f517806fc1a09))
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/docker/docker to v27.1.1+incompatible [security] ([#1220](https://github.com/k8sgpt-ai/k8sgpt/issues/1220)) ([3148b5c](https://github.com/k8sgpt-ai/k8sgpt/commit/3148b5c61d2ff57d67d966d6e915994d4aa8a844))
+* **deps:** update module github.com/mittwald/go-helm-client to v0.12.12 ([#1226](https://github.com/k8sgpt-ai/k8sgpt/issues/1226)) ([7019d0b](https://github.com/k8sgpt-ai/k8sgpt/commit/7019d0b62f1bebbd4c2a251c98a2beb4975bf2fe))
+* disable adding multiple openai provider ([#1191](https://github.com/k8sgpt-ai/k8sgpt/issues/1191)) ([644581f](https://github.com/k8sgpt-ai/k8sgpt/commit/644581f4958f470cfb088a69a478db0ab91c1540))
+* enabled auth add support watsonx backend ([#1190](https://github.com/k8sgpt-ai/k8sgpt/issues/1190)) ([d702209](https://github.com/k8sgpt-ai/k8sgpt/commit/d702209941480dce62b9622ea30fdb4a9e5ef083))
+* issue-1168, remove duplicate CVE ([#1230](https://github.com/k8sgpt-ai/k8sgpt/issues/1230)) ([8edb053](https://github.com/k8sgpt-ai/k8sgpt/commit/8edb053b3e88027880a75999eab19bed2176747f))
+* segmentation violation during serve ([#1215](https://github.com/k8sgpt-ai/k8sgpt/issues/1215)) ([b7e5394](https://github.com/k8sgpt-ai/k8sgpt/commit/b7e5394caaabb43e01161618f7a6e9f4aa8f7408))
+* set logger for controller-runtime ([#1211](https://github.com/k8sgpt-ai/k8sgpt/issues/1211)) ([8e37369](https://github.com/k8sgpt-ai/k8sgpt/commit/8e37369e5c6c96096b66179f22a27b2c0018c43a))
+
+
+### Other
+
+* **deps:** update actions/checkout digest to 692973e ([#1129](https://github.com/k8sgpt-ai/k8sgpt/issues/1129)) ([24ebeaf](https://github.com/k8sgpt-ai/k8sgpt/commit/24ebeaf3a748f2bf40c18ddcecaf8655b457048b))
+* **deps:** update actions/upload-artifact digest to 834a144 ([#1214](https://github.com/k8sgpt-ai/k8sgpt/issues/1214)) ([2a8a9b4](https://github.com/k8sgpt-ai/k8sgpt/commit/2a8a9b486714d780c0df3ecae8757534249731dc))
+* **deps:** update anchore/sbom-action action to v0.17.1 ([#1224](https://github.com/k8sgpt-ai/k8sgpt/issues/1224)) ([f573819](https://github.com/k8sgpt-ai/k8sgpt/commit/f57381961fbc63305d9e9aa63e85a90a100ee553))
+* **deps:** update docker/login-action digest to 9780b0c ([#1212](https://github.com/k8sgpt-ai/k8sgpt/issues/1212)) ([477ef15](https://github.com/k8sgpt-ai/k8sgpt/commit/477ef155d32f4d81ca3bee612644f51fc1098cdc))
+
+
+### Docs
+
+* update "CLI Installation" section in README.md ([#1126](https://github.com/k8sgpt-ai/k8sgpt/issues/1126)) ([#1127](https://github.com/k8sgpt-ai/k8sgpt/issues/1127)) ([b2b8682](https://github.com/k8sgpt-ai/k8sgpt/commit/b2b86826e55984c2b6aed6554869d7ce66a5f854))
+
 ## [0.3.40](https://github.com/k8sgpt-ai/k8sgpt/compare/v0.3.39...v0.3.40) (2024-08-04)
 
 
